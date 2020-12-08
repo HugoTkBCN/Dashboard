@@ -21,7 +21,7 @@ exports.getWeather = function(req, res) {
         } else {
             const options = {
                 method: 'GET',
-                url: 'http://api.openweathermap.org/data/2.5/weather?q='+req.body.city+'&appid=2545656ea18d64851a760091ce8f4314&units=metric'
+                url: 'http://api.openweathermap.org/data/2.5/weather?q='+req.body.city+'&appid=[APIKEY]&units=metric'
             };
 
             request(options, function (error, response, body) {

@@ -21,7 +21,7 @@ exports.getStatus = function(req, res) {
         } else {
             const options = {
                 method: 'GET',
-                url: 'https://api.steampowered.com/ICSGOServers_730/GetGameServersStatus/v1?key=26284671909F3C715EFF2A1DE5A9F4EE',
+                url: 'https://api.steampowered.com/ICSGOServers_730/GetGameServersStatus/v1?key=[API_KEY]',
             };
 
             request(options, function (error, response, body) {

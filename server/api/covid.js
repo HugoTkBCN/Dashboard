@@ -24,7 +24,7 @@ exports.getCovidStat = function(req, res) {
                 url: 'https://covid-193.p.rapidapi.com/statistics',
                 qs: {country: req.body.country},
                 headers: {
-                    'x-rapidapi-key': '0dc0d7eb0cmsh5882a207846d688p1eba7djsn9f4107679aa0',
+                    'x-rapidapi-key': '[API_KEY]',
                     'x-rapidapi-host': 'covid-193.p.rapidapi.com',
                     useQueryString: true
                 }
